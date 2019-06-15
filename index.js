@@ -2,7 +2,10 @@ let user = {};
 
 user.agent = [
   navigator.appName,
-  window.location.protocol
+  navigator.appCodeName,
+  window.location.protocol,
+  window.location.host,
+  
 ];
 
 const mapp = ()=>{
