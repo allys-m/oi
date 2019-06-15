@@ -14,6 +14,9 @@ user.agent = [
 const mapp = ()=>{
    alert('User.nav.appName '+user.agent[0]);
    for (let i=0; i<=user.agent.length; i++){
+      var time = setTimeout(()=>{
+        alert("dome");
+      }, 2000);
       document.write(i+' '+user.agent[i]+'<br>');
    }
 };
