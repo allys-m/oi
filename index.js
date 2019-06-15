@@ -15,8 +15,9 @@ const mapp = ()=>{
    alert('User.nav.appName '+user.agent[0]);
    for (let i=0; i<=user.agent.length; i++){
       var time = setTimeout(()=>{
-        alert("dome");
+        var t = document.write(i+' '+user.agent[i]+'<br>');
       }, 2000);
-      document.write(i+' '+user.agent[i]+'<br>');
+      var b = document.getElementById('demo');
+      domcument.write(b.innerHTML=time);
    }
 };
