@@ -10,14 +10,14 @@ user.agent = [
   window.location.host
   
 ];
-var lst = (n)=>{
-  for (let i=0; i<n.length; i++){
-     alert(i+'  '+n[i]);
+var lst = ()=>{
+  for (let i=0; i<user.agent.length; i++){
+     alert(i+'  '+user.agent[i]);
   }
 };
 
 let mapp = ()=>{
    alert("Herzlichen Willkommen");
-   lst(user.agent);
+   lst();
 };
 
