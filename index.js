@@ -12,11 +12,7 @@ user.agent = [
 ];
 
 const mapp = ()=>{
-   var time = setTimeout(()=>{
-     for (var i=0; i<user.agent.length; i++){
-       alert(i+" "+user.agent[i]);
-     }
-   }, 1000);
+   alert("Herzlichen Willkommen");
 };
 
 mapp();
