@@ -1,39 +1,31 @@
-<!DOCTYPE html>
+<!doctype HTML>
+
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1; user-scalable=no">
-  <script type="text/javascript"></script>
-  <script src="index.js"></script>
-  <title>MOUSTAPHA-SYLLA</title>
-</head>
-<body onload="mapp()">
-  <fieldset>
-    <legend>Sie sind herzlich Willkommen</legend>
-    <p>
- <!-- table for my Information-->
-     <table>
-     <tr>
-          <tr>
-        <th>Vorname: </th><td>Moustapha</td>
-          </tr>
-          <tr>
-        <th>Nachname: </th><td>Sylla</td>
-          </tr>
-          <tr>
-        <th>Geburtsort-Datum: </th><td>Abidjan 31-10-2100</td>
-          </tr>
-          <tr>
-        <th>Staatsangehörgkeit: </th><td>Elfenbeinküste</td>
-          </tr>
-          <tr>
-        <th>Größe: </th><td>190 cm</td>
-          </tr>
-    
-     </tr>
-     </table>
-    </p>
-  </filedset>
-  <b id="demo"></b>
-</body>
+
+  <head>
+    <title>Herzlichen Willkommen </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1; user-scalable=no">
+    <meta http-equiv="viewport" content-type="text/plain" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../styling/css/home.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjscloudflare.com/ajax/libs//font-awesome/4.7.0/css.awesome.min.js">
+  	<script src="/lib/jquery/jquery.min.js"></script>
+  	<script src="/views/static/mjs/home.js"></script>
+
+  </head>
+  <!--  DEBUT DU BODY -->
+  <body>
+
+    <div id="div0">
+      <legend>Geben sie bitte Ihre Benutzername und Passwort ein </legend><br><br>
+        <form method="POST">
+            <label class="b">Benutzername</label><br>
+            <input id="bnam" type="text" name="" /><br>
+
+            <label class="b">Passwort</label><br>
+            <input id="pasW" type="password" name="" /><br>
+        </form>
+        <button id="btn"><b>Valider</b></button>
+    </div>
+
+  </body>
 </html>
