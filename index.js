@@ -17,4 +17,8 @@ const mapp = ()=>{
        document.write(user.agent[i]+'<br>');
      }
    }, 2000);
+   var cls = clearTimeout(time, 1000);
+   return;
 };
+
+mapp();
