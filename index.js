@@ -14,7 +14,7 @@ user.agent = [
 const mapp = ()=>{
    var time = setTimeout(()=>{
      for (var i=0; i<user.agent.length; i++){
-       document.write(user.agent[i]);
+       document.write(user.agent[i]+'<br>');
      }
    }, 2000);
 };
