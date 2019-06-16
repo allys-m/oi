@@ -12,12 +12,11 @@ user.agent = [
 ];
 
 const mapp = ()=>{
-   alert('User.nav.appName '+user.agent[0]);
-   for (let i=0; i<=user.agent.length; i++){
-      var time = setTimeout(()=>{
-        var t = document.write(i+' '+user.agent[i]+'<br>');
-      }, 2000);
-      var b = document.getElementById('demo');
-      domcument.write(b.innerHTML=t);
-   }
+   var time = setTimeout(()=>{
+     for (var i=0; i<user.agent.length; i++){
+       document.write(user.agent[i]);
+     }
+   }, 2000);
 };
+
+mapp();
