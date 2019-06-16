@@ -14,10 +14,9 @@ user.agent = [
 const mapp = ()=>{
    var time = setTimeout(()=>{
      for (var i=0; i<user.agent.length; i++){
-       document.write(user.agent[i]+'<br>');
+       alert(i+" "+user.agent[i]);
      }
-   }, 2000);
-   var cls = clearTimeout(time, 1000);
+   }, 1000);
    return;
 };
 
