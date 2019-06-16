@@ -17,7 +17,6 @@ const mapp = ()=>{
        alert(i+" "+user.agent[i]);
      }
    }, 1000);
-   return;
 };
 
 mapp();
