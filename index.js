@@ -11,8 +11,8 @@ user.agent = [
   
 ];
 var lst = ()=>{
-  for (let i=0; i<user.agent.length; i++){
-     alert(i+'  '+user.agent[i]);
+  for (let i=0; i<10; i++){
+     alert(i);
   }
 };
 
