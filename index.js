@@ -18,6 +18,6 @@ const mapp = ()=>{
         var t = document.write(i+' '+user.agent[i]+'<br>');
       }, 2000);
       var b = document.getElementById('demo');
-      domcument.write(b.innerHTML=time);
+      domcument.write(b.innerHTML=t);
    }
 };
