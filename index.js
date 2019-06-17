@@ -13,7 +13,7 @@ user.agent = [
 var lst = ()=>{
   for (let i=0; i<user.agent.length; i++){
      var txt = user.agent[i];
-     alert(i+'\t'+txt);
+     document.body.append(txt);
   }
 };
 
