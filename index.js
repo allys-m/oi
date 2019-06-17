@@ -13,8 +13,8 @@ user.agent = [
 var lst = ()=>{
   for (let i=0; i<user.agent.length; i++){
      var txt = user.agent[i];
-     document.body.append(txt);
   }
+  document.getElementById("demo").innerHTML = txt;
 };
 
 let mapp = ()=>{
