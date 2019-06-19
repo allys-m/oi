@@ -1,5 +1,6 @@
 body {
-  background-color: black;
+  background-color: black; color: white;
+  position: fixed;
 }
 .titr0 {
   font-size: 60px;
