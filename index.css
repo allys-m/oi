@@ -1,7 +1,7 @@
 body {
   background-color: black; color: white;
-  position: fixed;
+  display: block;
 }
 .titr0 {
-  font-size: 60px;
+  font-size: 50px; color: yellow;
 }
