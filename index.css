@@ -3,5 +3,7 @@ body {
   display: block;
 }
 .titr0 {
-  font-size: 50px; color: yellow;
+  font-size: 45px; color: yellow;
+  margin-top: 1px; border: solid 2px;
+  border-color: cyan;
 }
