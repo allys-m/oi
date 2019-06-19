@@ -12,3 +12,6 @@ body {
  text-align: center; font-size: 20px;
  color: yellow;
 }
+.nm {
+ color: yellow; background-color: cyan;
+}
