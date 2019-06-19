@@ -8,3 +8,6 @@ body {
   border-color: cyan; border-radius: 8px;
   display: block;
 }
+.kurz {
+ text-align: center; font-size: 25px;
+ color: yellow;
