@@ -13,7 +13,7 @@ user.agent = [
 var main = {};
 
 main.start=()=>{
-  var bdy = $('bdy');
+  var bdy = $('body');
   var tst = $().ready(function(){
    bdy.on('mouseover', ()=>{
      bdy.css({
