@@ -13,6 +13,7 @@ user.agent = [
 var main = {};
 
 main.start=()=>{
+  var bdy = $('bdy');
   var tst = $().ready(function(){
    alert("js done ");
   });
