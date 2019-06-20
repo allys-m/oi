@@ -10,15 +10,10 @@ user.agent = [
   window.location.host
   
 ];
-var lst = ()=>{
-  for (let i=0; i<user.agent.length; i++){
-     var txt = user.agent[i];
-  }
-  document.getElementById("demo").innerHTML = txt;
-};
+var main = {};
 
-let mapp = ()=>{
-   alert("Herzlichen Willkommen");
-   lst();
+main.start=()=>{
+  var tst = $().ready(function(){
+   alert("js done ");
+  });
 };
-
