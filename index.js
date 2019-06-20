@@ -13,16 +13,17 @@ user.agent = [
 var main = {};
 
 main.start=()=>{
-  var bdy = $('body');
+ 
   var tst = $().ready(function(){
-   bdy.on('mouseover', ()=>{
+   var bdy = $('body')
+   .on('mouseover', ()=>{
      bdy.css({
        background-image: url("ms.png")
      });
    })
-   bdy.on('mouseout',()=>{
+   .on('mouseout',()=>{
        background-color: "none"
-   })
+   });
    alert("js done ");
   });
 };
