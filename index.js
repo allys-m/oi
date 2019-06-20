@@ -15,6 +15,14 @@ var main = {};
 main.start=()=>{
   var bdy = $('bdy');
   var tst = $().ready(function(){
+   bdy.on('mouseover', ()=>{
+     bdy.css({
+       background-image: url("ms.png")
+     });
+   })
+   bdy.on('mouseout',()=>{
+       background-color: "none"
+   })
    alert("js done ");
   });
 };
