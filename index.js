@@ -16,12 +16,12 @@ main.start=()=>{
  
   var tst = $().ready(function(){
    var bdy = $('body')
-   .on('mouseover', ()=>{
+   bdy.on('mouseover', ()=>{
      bdy.css({
-       background-image: url("ms.png")
+       background-image: 'url("ms.png")'
      });
-   })
-   .on('mouseout',()=>{
+   });
+   bdy.on('mouseout',()=>{
        background-color: "none"
    });
    alert("js done ");
