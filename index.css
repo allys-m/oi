@@ -1,9 +1,9 @@
 body {
-  background-image: url("ms.png");
-  color: white; position: fixed;
+  background-color: black;
+  color: white;
 }
 first-div {
-  margin-top: 50%;
+  padding-top: 50%;
 }
 .titr0 {
   font-size: 25px; color: yellow;
