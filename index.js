@@ -16,12 +16,13 @@ main.start=()=>{
  
   var tst = $().ready(function(){
    var fset = $('fieldset');
-   fset.on('mouseover', ()=>{
+   fset.on('mouse', ()=>{
      fset.css({
-       backgroundImage: "url('ms.png')",
-       background-size: "20px"
+       backgroundColor: white;
      });
-     return;
+   $('#first-div, i ').css({
+      color: "black"
+   });// instance
    }); // fset
    fset.on('mouseout',()=>{
      fset.css({
