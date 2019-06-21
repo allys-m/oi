@@ -24,6 +24,7 @@ first-div {
   font-style: italic; font-size: 18px;
 }
 #nav ul li {
-  float: left; padding: 0%;
-  overflow: hidden;
+  float: left; padding: 1%;
+  overflow: hidden; border: solid 1px;
+  background-color: yellow;
 }
