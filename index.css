@@ -3,6 +3,9 @@ body {
   color: white;
   display: block;
 }
+fieldset {
+  margin-top: 20%;
+}
 .titr0 {
   font-size: 25px; color: yellow;
   margin-top: 1px; border: solid 2px;
@@ -21,6 +24,6 @@ body {
   margin-left: 2%; margin-right: 2%;
   font-style: italic; font-size: 18px;
 }
-#nav ul li{
+#nav {
   float: left; padding: 1%;
 }
