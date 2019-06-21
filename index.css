@@ -27,4 +27,5 @@ first-div {
   float: left; padding: 1%;
   overflow: hidden; border: solid 1px;
   background-color: yellow;
+  margin-left: -2%;
 }
