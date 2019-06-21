@@ -15,15 +15,11 @@ var main = {};
 main.start=()=>{
  
   var tst = $().ready(function(){
-   var bdy = $('body')
+   var bdy = $('body');
    bdy.on('mouseover', ()=>{
      bdy.css({
-       background-image: 'url("ms.png")'
+       backgroundImage: "url('ms.png')"
      });
-   });
-   bdy.on('mouseout',()=>{
-       background-color: "none"
-   });
-   alert("js done ");
-  });
-};
+   }); // bdy
+  }); // tst
+}; // main.start
