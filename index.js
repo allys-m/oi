@@ -15,11 +15,12 @@ var main = {};
 main.start=()=>{
  
   var tst = $().ready(function(){
-   var bdy = $('body');
-   bdy.on('mouseover', ()=>{
-     bdy.css({
+   var fset = $('fieldset');
+   fset.on('click', ()=>{
+     fset.css({
        backgroundImage: "url('ms.png')"
      });
-   }); // bdy
+     return false;
+   }); // fset
   }); // tst
 }; // main.start
