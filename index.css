@@ -4,7 +4,7 @@ body {
   display: block;
 }
 fieldset {
-  margin-top: 20%;
+  margin-bottom: 30%;
 }
 .titr0 {
   font-size: 25px; color: yellow;
@@ -24,6 +24,7 @@ fieldset {
   margin-left: 2%; margin-right: 2%;
   font-style: italic; font-size: 18px;
 }
-#nav {
-  float: left; padding: 1%;
+#nav ul li {
+  float: left; padding: 0%;
+  overflow: hidden;
 }
