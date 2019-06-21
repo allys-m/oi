@@ -1,10 +1,9 @@
 body {
   background-image: url("ms.png");
-  color: white; background-position: bottom;
-  display: block;
+  color: white; position: fixed;
 }
-#f7 {
-  margin-bottom: 30%;
+first-div {
+  margin-top: 50%;
 }
 .titr0 {
   font-size: 25px; color: yellow;
