@@ -18,3 +18,6 @@ body {
 #first-p {
   background-color: red; text-align: center
 }
+#nav ul {
+  float: left;
+}
