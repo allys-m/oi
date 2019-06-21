@@ -16,11 +16,17 @@ main.start=()=>{
  
   var tst = $().ready(function(){
    var fset = $('fieldset');
-   fset.on('click', ()=>{
+   fset.on('mouseover', ()=>{
      fset.css({
-       backgroundImage: "url('ms.png')"
+       backgroundImage: "url('ms.png')",
+       background-size: "20px"
      });
-     return false;
+     return;
    }); // fset
+   fset.on('mouseout',()=>{
+     fset.css({
+       background-color: none
+     });
+   }); // m.out
   }); // tst
 }; // main.start
