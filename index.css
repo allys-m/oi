@@ -1,9 +1,9 @@
 body {
   background-image: url("ms.png");
-  color: white;
+  color: white; background-position: bottom;
   display: block;
 }
-fieldset {
+#f7 {
   margin-bottom: 30%;
 }
 .titr0 {
