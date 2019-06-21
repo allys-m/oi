@@ -1,5 +1,6 @@
 body {
-  background-color: black; color: white;
+  background-image: url("ms.png");
+  color: white;
   display: block;
 }
 .titr0 {
@@ -16,8 +17,10 @@ body {
  color: yellow; font-size: 22px;
 }
 #first-p {
-  background-color: red; text-align: center
+  background-color: red; text-align: center;
+  margin-left: 2%; margin-right: 2%;
+  font-style: italic; font-size: 18px;
 }
-#nav ul {
-  float: left;
+#nav ul li{
+  float: left; padding: 1%;
 }
