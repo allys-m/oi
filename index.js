@@ -15,8 +15,8 @@ var main = {};
 main.start=()=>{
  
   var tst = $().ready(function(){
-   var fset = $('fieldset');
-   fset.on('mouse', ()=>{
+   var fset = $('#f7');
+   fset.on('mouseover', ()=>{
      fset.css({
        backgroundColor: white;
      });
