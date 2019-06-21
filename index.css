@@ -10,7 +10,7 @@ body {
 }
 .kurz {
  text-align: center; font-size: 20px;
- color: yellow;
+ color: yellow; background-color: black;
 }
 .nm {
  color: yellow; font-size: 22px;
