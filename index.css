@@ -2,8 +2,8 @@ body {
   background-color: black;
   color: white;
 }
-first-div {
-  padding-top: 50%;
+#first-div {
+  padding-top: 20%;
 }
 .titr0 {
   font-size: 25px; color: yellow;
@@ -13,7 +13,7 @@ first-div {
 }
 .kurz {
  text-align: center; font-size: 20px;
- color: yellow; background-color: black;
+ color: yellow; background-color: cyan;
 }
 .nm {
  color: yellow; font-size: 22px;
