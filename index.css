@@ -23,13 +23,13 @@ body {
   margin-left: 6%; margin-right: 6%;
   font-style: italic; font-size: 17px;
 }
-#nav {
+#nav, tr, th  a{
   text-align: center;
 }
 #nav tr{
   border: solid 1px;
   background-color: yellow;
 }
-#nav th {
+#nav a {
   text-decoration: none; 
 }
