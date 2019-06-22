@@ -24,7 +24,7 @@ body {
   font-style: italic; font-size: 17px;
 }
 #nav {
-  margin-left: 34%;
+  margin-left: 32%;
 }
 #nav tr{
   background-color: yellow;
@@ -34,6 +34,6 @@ body {
   border-color: white;
 }
 .lnk {
-  color: black;
+  color: white;
   text-decoration: none;
 }
