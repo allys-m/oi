@@ -29,11 +29,11 @@ body {
 #nav tr{
   background-color: yellow;
 }
-.lnk {
+#nav th {
   border-solid 2px;
   border-color: red;
 }
 .lnk {
-  color: red;
+  color: black;
   text-decoration: none;
 }
