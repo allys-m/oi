@@ -28,10 +28,10 @@ body {
 }
 #nav tr{
   background-color: yellow;
-#nav th {
+#nav .lnk {
   border-solid 2px;
   border-color: red;
-#nav, a {
-  color: black;
+#nav .lnk a {
+  color: red;
   text-decoration: none;
 }
