@@ -32,8 +32,7 @@ body {
   border-color: red;
 #nav th {
   overflow: hidden;
-}
-#nav a {
   text-decoration: none;
+#nav a {
   color: black;
 }
