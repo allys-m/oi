@@ -29,9 +29,9 @@ body {
 #nav tr{
   border: solid 2px;
   background-color: yellow;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-width: 50px;
+}
+#nav th {
+  border-solid 2px; width: 30px;
 }
 #nav a {
   text-decoration: none;
