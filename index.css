@@ -36,7 +36,10 @@ body {
   border-solid 2px;
   border-color: white;
 }
-.th {
+.ln0 {
   color: white;
   text-decoration: none;
+}
+.th {
+  background-color: blue;
 }
