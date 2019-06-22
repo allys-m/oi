@@ -29,9 +29,10 @@ body {
 #nav tr{
   border: solid 2px;
   background-color: yellow;
+  font-size: 16px;
 }
 #nav th {
-  border-solid 2px; width: 30px;
+  border-solid 2px; 
 }
 #nav a {
   text-decoration: none;
