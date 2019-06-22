@@ -24,14 +24,14 @@ body {
   font-style: italic; font-size: 17px;
 }
 #nav {
-  margin-left: 40%;
+  margin-left: 35%;
 }
 #nav tr{
   border: solid 2px;
   background-color: yellow;
   padding-left: 3%;
   padding-right: 3%;
-  width: 50px;
+  width: 50%;
 }
 #nav a {
   text-decoration: none;
