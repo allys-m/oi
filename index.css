@@ -20,17 +20,18 @@ body {
 }
 #first-p {
   background-color: red; text-align: center;
-  margin-left: 18%; margin-right: 18%;
+  margin-left: 22%; margin-right: 22%;
   font-style: italic; font-size: 17px;
 }
 #nav {
-  margin-left: 20%;
+  margin-left: 40%;
 }
 #nav tr{
   border: solid 2px;
   background-color: yellow;
   padding-left: 3%;
   padding-right: 3%;
+  width: 50px;
 }
 #nav a {
   text-decoration: none;
