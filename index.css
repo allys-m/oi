@@ -20,16 +20,17 @@ body {
 }
 #first-p {
   background-color: red; text-align: center;
-  margin-left: 6%; margin-right: 6%;
+  margin-left: 10%; margin-right: 10%;
   font-style: italic; font-size: 17px;
 }
-#nav, tr, th  a{
-  text-align: center;
+#nav {
+  margin-left: 10%;
 }
 #nav tr{
-  border: solid 1px;
+  border: solid 2px;
   background-color: yellow;
 }
 #nav a {
-  text-decoration: none; 
+  text-decoration: none;
+  color: red;
 }
