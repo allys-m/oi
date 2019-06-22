@@ -23,7 +23,13 @@ body {
   margin-left: 6%; margin-right: 6%;
   font-style: italic; font-size: 17px;
 }
+#nav {
+  text-align: center;
+}
 #nav tr{
-  text-align: center; border: solid 1px;
+  border: solid 1px;
   background-color: yellow;
+}
+#nav th {
+  text-decoration: none; 
 }
