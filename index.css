@@ -33,7 +33,7 @@ body {
   border-solid 2px;
   border-color: red;
 }
-.lnk a {
+.lnk {
   color: red;
   text-decoration: none;
 }
