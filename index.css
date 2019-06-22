@@ -24,6 +24,6 @@ body {
   font-style: italic; font-size: 17px;
 }
 #nav tr{
-  float: left; border: solid 1px;
+  text-align: center; border: solid 1px;
   background-color: yellow;
 }
