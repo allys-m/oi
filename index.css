@@ -36,7 +36,7 @@ body {
   border-solid 2px;
   border-color: white;
 }
-.ln0, ln1, nl2 {
+.ln0, .ln1, .nl2 {
   color: white;
   text-decoration: none;
 }
