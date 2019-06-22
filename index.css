@@ -41,5 +41,5 @@ body {
   text-decoration: none;
 }
 .th {
-  background-color: blue;
+  border-solid: 5px;
 }
