@@ -13,11 +13,11 @@ body {
 }
 .kurz {
  text-align: center; font-size: 20px;
- color: yellow; background-color: cyan;
- margin-left: 10%;
+ color: yellow; background-color: white;
+ margin-left: 20%; margin-right: 20%;
 }
 .nm {
- color: yellow; font-size: 22px;
+ color: yellow; font-size: 18px;
 }
 #first-p {
   background-color: red; text-align: center;
@@ -29,7 +29,7 @@ body {
 }
 #nav tr{
   background-color: yellow;
-  border-solid 2px;
+  border-solid 3px;
   border-color: white;
 #nav th {
   background-color: blue;
