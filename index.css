@@ -1,7 +1,11 @@
-body {
-  background-color: black;
-  color: white;
+@media screen and (orientation: portrait) {
+  body {
+   width: 100%;
+   background-color: black;
+   color: white;
+  }
 }
+
 #first-div {
   padding-top: 10%;
 }
