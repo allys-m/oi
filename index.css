@@ -1,9 +1,8 @@
 @media screen and (orientation: portrait) {
   body {
-   width: 100%; height: 100%;
+   width: 100%; height: 130%;
    background-color: black;
    color: white;
-   text-align: center;
 }
 #first-div {
   padding-top: 15%;
@@ -12,9 +11,6 @@
   font-size: 25px; color: yellow;
   margin-top: 1px; border: solid 2px;
   border-color: cyan; border-radius: 8px;
-  display: block;
-}
-
 }
 
 .kurz {
@@ -23,6 +19,9 @@
  margin-left: 20%; margin-right: 20%;
  border-radius: 18%;
 }
+
+} /* screen */
+
 .nm {
  color: yellow; font-size: 18px;
 }
