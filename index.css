@@ -28,9 +28,8 @@
  color: yellow; font-size: 18px;
 }
 #first-p {
-  background-color: red; text-align: center;
-  margin-left: 22%; margin-right: 22%;
-  font-style: italic; font-size: 17px;
+  margin-left: 10%;
+  font-size: 17px;
 }
 #nav {
   text-align: center;
