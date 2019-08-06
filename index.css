@@ -1,4 +1,4 @@
-@media screen and (orientation: portrait) {
+@media screen and (min-width: 100%) {
   body {
     display: block;
     margin-left: 0px;
@@ -70,8 +70,8 @@
 /*---------------------- DESKTOP --------------------------------*/
 body {
   display: block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
   background-color: black;
-  color: white;
-   }
+  color: white; font-size: 50px;
+}
