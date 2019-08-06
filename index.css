@@ -37,6 +37,7 @@
 #nav {
   text-align: center;
   border: solid 1px;
+  margin-left: 25%;
 }
 
 #nav tr{
@@ -44,7 +45,6 @@
   border-solid 3px;
   border-color: white;
   text-align: center;
-  margin-left: 20%;
 }
 
 #nav th {
