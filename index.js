@@ -12,22 +12,10 @@ user.agent = [
 ];
 var main = {};
 
-main.start=()=>{
- 
-  var tst = $().ready(function(){
-   var fset = $('#f7');
-   fset.on('mouseover', ()=>{
-     fset.css({
-       backgroundColor: white;
-     });
-   $('#first-div, i ').css({
-      color: "black"
-   });// instance
-   }); // fset
-   fset.on('mouseout',()=>{
-     fset.css({
-       background-color: none
-     });
-   }); // m.out
-  }); // tst
-}; // main.start
+main.start = $(function(){
+  var msg = "Aktung: die seite wurde nur auf mobile version"+
+  " aufgebaut mit Portrait Oriantation ";
+  alert(msg);
+}); // start
+
+main.start();
