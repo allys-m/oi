@@ -13,8 +13,10 @@ user.agent = [
 var main = {};
 
 main.start = $(function(){
-  var msg = "Aktung: die seite wurde nur auf mobile version"+
-  " aufgebaut mit Portrait Oriantation ";
+  var date = new Date();
+  var msg = "Aktung: die seite wurde nur auf eine mobile version"+
+  " aufgebaut mit dem Portrait Oriantation "+
+  "Datum  :"+date.getToday();
   alert(msg);
 }); // start
 
