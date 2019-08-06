@@ -33,10 +33,7 @@
 .nm {
  color: yellow; font-size: 18px;
 }
-#first-p {
-  margin-left: 20%;
-  font-size: 18px;
-}
+
 #nav {
   text-align: center;
   border: solid 1px;
@@ -47,6 +44,7 @@
   border-solid 3px;
   border-color: white;
   text-align: center;
+  margin-left: 20%;
 }
 
 #nav th {
