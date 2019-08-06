@@ -35,6 +35,9 @@
  font-size: 18px;
  border: solid 2px;
  border-color: red;
+ text-align: center; 
+ margin-left: 10%;
+ margin-right: 10%;
 }
 
 #nav {
