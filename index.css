@@ -69,16 +69,16 @@
 
 } /* screen */
 /*---------------------- DESKTOP --------------------------------*/
-body {
+#bdy {
   display: block;
   margin-left: 15%;
   margin-right: 15%;
   background-color: black;
-  color: white; font-size: 30px;
+  color: white;
 }
 
 .titr0 {
-  font-size: 25px;
+  font-size: 40px;
   color: yellow;
   margin-top: 1px;
   border: solid 2px;
