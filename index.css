@@ -9,18 +9,14 @@
       background-color: black;
       color: white;
     }
-#first-div {
-  padding-top: 15%;
-}
-
-.titr0 {
-  font-size: 15px;
-  color: yellow;
-  margin-top: 1px;
-  border: solid 2px;
-  border-color: cyan;
-  border-radius: 8px;
-}
+   .titr0 {
+     font-size: 10px;
+     color: yellow;
+     margin-top: 1px;
+     border: solid 2px;
+     border-color: cyan;
+     border-radius: 8px;
+   }
 
 .kurz {
  text-align: center;
