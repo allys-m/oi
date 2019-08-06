@@ -33,7 +33,7 @@
 .titr0 {
   font-size: 40px;
   color: yellow;
-  margin-top: 1px;
+  margin-top: 1%; padding-left: 2%; padding-right: 2%;
   border: solid 2px;
   border-color: yellow;
   border-radius: 8px;
