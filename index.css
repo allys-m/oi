@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media only screen and (orientation: portrait) {
   #bdy {
     display: block;
     font-size: 18px;
