@@ -1,7 +1,6 @@
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
   #bdy {
     display: block;
-    max-width: 768px;
     background-color: black;
     color: white;
    }
