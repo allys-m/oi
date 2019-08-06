@@ -1,11 +1,11 @@
 @media screen and (orientation: portrait) {
   #bdy {
     display: block;
-    font-size: 13px;
+    font-size: 18px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: black;
-    heigth: 100px;
+    heigth: 100px; width: 100px;
     color: white;
    }
 #first-div {
@@ -13,7 +13,7 @@
 }
 
 .titr0 {
-  font-size: 25px;
+  font-size: 15px;
   color: yellow;
   margin-top: 1px;
   border: solid 2px;
