@@ -1,10 +1,14 @@
 
-@media only screen and (max-width: 600px) and (min-width: 350px) {
-  #bdy {
-    display: block;
-    background-color: black;
-    color: white;
-   }
+@media only screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+    #bdy {
+      display: block;
+      background-color: black;
+      color: white;
+    }
 #first-div {
   padding-top: 15%;
 }
