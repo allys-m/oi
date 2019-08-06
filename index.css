@@ -1,6 +1,7 @@
 @media screen and (orientation: portrait) {
   #bdy {
     display: block;
+    font-size: 13px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: black;
@@ -72,5 +73,5 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   background-color: black;
-  color: white; font-size: 50px;
+  color: white; font-size: 30px;
 }
