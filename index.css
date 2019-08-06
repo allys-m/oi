@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 200px) and (min-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width: 350px) {
   #bdy {
     display: block;
     background-color: black;
@@ -9,7 +9,7 @@
   padding-top: 15%;
 }
 
-[class*=".titr0"] {
+.titr0 {
   font-size: 15px;
   color: yellow;
   margin-top: 1px;
@@ -71,7 +71,7 @@
   margin-left: 15%;
   margin-right: 15%;
   background-color: black;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
