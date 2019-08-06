@@ -1,3 +1,24 @@
+
+/*---------------------- DESKTOP --------------------------------*/
+#bdy {
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: black;
+  color: white;
+}
+
+.titr0 {
+  font-size: 40px;
+  color: yellow;
+  margin-top: 1px;
+  border: solid 2px;
+  border-color: yellow;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 768px) {
   #bdy {
     display: block;
@@ -64,21 +85,3 @@
 
 
 } /* screen */
-/*---------------------- DESKTOP --------------------------------*/
-#bdy {
-  display: block;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: black;
-  color: white;
-}
-
-.titr0 {
-  font-size: 40px;
-  color: yellow;
-  margin-top: 1px;
-  border: solid 2px;
-  border-color: yellow;
-  border-radius: 8px;
-  text-align: center;
-}
