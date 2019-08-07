@@ -1,9 +1,7 @@
 
 @media only screen 
-  and (device-max-width: 360px) 
-  and (device-height: 440px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
+  and (orientation: portrait)
+{
     #bdy {
       display: block;
       background-color: black;
@@ -21,22 +19,3 @@
 
 } /* screen */
 /*---------------------- DESKTOP --------------------------------*/
-#bdy {
-  display: block;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: black;
-  font-size: 25px;
-  color: white;
-}
-
-.titr0 {
-  font-size: 25px;
-  color: yellow;
-  margin-top: 1%; padding-left: 5%; padding-right: 5%;
-  border: solid 2px;
-  border-color: yellow;
-  border-radius: 8px;
-  text-align: center;
-}
-
