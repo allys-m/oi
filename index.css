@@ -1,3 +1,6 @@
+body { background-color: black;
+      color: white;
+}
 /* Mobile version */
 @media only screen 
   and (device-width: 250px) 
