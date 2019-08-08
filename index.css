@@ -1,6 +1,6 @@
 
 @media only screen 
-  and (orientation: portrait)
+  and (width: 200px)
 {
     #bdy {
       display: block;
