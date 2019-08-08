@@ -19,7 +19,7 @@
 
 } /* screen */
 /*---------------------- DESKTOP --------------------------------*/
-@media only screen and (min-width: 350px)
+@media only screen and (min-width: 100px)
 {
   #bdy { background-color: cyan;
 }
