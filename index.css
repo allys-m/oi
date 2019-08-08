@@ -4,11 +4,14 @@
 {
    #bdy {
       background-color: black;
+      height: 100%;
    }
    .titr0 {
-      font-size: 15px;
+      font-size: 18px;
       border: solid 2px; 
       border-color: yellow;
+      color: white; 
+      
    }
 }
 /* ----------------------------------------------------------*/
