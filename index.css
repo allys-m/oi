@@ -7,5 +7,5 @@
 /* @media for Desktop version */
 @media only screen and (orientation: paysage)
 {
-      #bdy { background-color: red; }
+      #bdy { background-color: blue; }
 }
