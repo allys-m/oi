@@ -9,13 +9,12 @@
 /* @media for mobile version */
 @media only screen and (max-width: 250px)
 {
-   #bdy
-      {
-        background-color: red; font-size: 25px;
+   #bdy {
+        background-color: cyan;
       }
-   .titr0
-      {
-        font-size: 25px; border: solid 2px; 
+   .titr0 {
+      font-size: 25px; border: solid 2px; 
+      border-color: yellow;
       }
 }
 /* ----------------------------------------------------------*/
