@@ -1,20 +1,27 @@
-/*    Desktop     */
-#bdy {
-   background-color: lightpink; margin-left: 15%; margin-right: 15%;
-}
-.titr0 {
-   font-size: 30px; border: solid 2px; border-color: green;
- }
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen and (resolution: 3040 x 1440)
+@media only screen and (device-width: 250px)
 {
    #bdy {
       background-color: cyan;
    }
    .titr0 {
-      font-size: 25px; border: solid 2px; 
+      font-size: 25px;
+      border: solid 2px; 
       border-color: yellow;
    }
 }
 /* ----------------------------------------------------------*/
+/*    Desktop     */
+@media only screen and (orientation: portrait)
+{
+   #bdy {
+      background-color: cyan;
+   }
+   
+   .titr0 {
+      font-size: 18px;
+      border: solid 2px; 
+      border-color: red;
+   }
+}
