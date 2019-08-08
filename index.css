@@ -8,17 +8,19 @@
       font-size: 14px;
    }
    .titr0 {
-      font-size: 18px;
+      font-size: 20px;
       border: solid 2px; 
       border-color: yellow;
       color: white; 
-      
+      background-color: none;
    }
    
    .kurz {
       text-align: center;
-      font-size: 15px;
+      font-size: 18px;
       border: solid 2px;
+      margin-left: 3%;
+      margin-right: 3%;
    }
 }
 /* ----------------------------------------------------------*/
