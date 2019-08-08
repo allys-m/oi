@@ -1,6 +1,6 @@
 
 @media only screen 
-  and (max-width: 300px) 
+  and (width: 250px) 
 {
     #bdy {
       display: block;
