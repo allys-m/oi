@@ -1,27 +1,26 @@
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen and (width: 290px)
+@media only screen and (orientation: portrait)
 {
    #bdy {
-      background-color: cyan;
+      background-color: black;
    }
    .titr0 {
-      font-size: 25px;
+      font-size: 15px;
       border: solid 2px; 
       border-color: yellow;
    }
 }
 /* ----------------------------------------------------------*/
-/*    Desktop     */
-@media only screen and (orientation: portrait)
+@media only screen and (orientation: landscape)
 {
    #bdy {
-      background-color: cyan;
+      background-color: red;
    }
    
    .titr0 {
       font-size: 15px;
       border: solid 2px; 
-      border-color: red;
+      border-color: black;
    }
 }
