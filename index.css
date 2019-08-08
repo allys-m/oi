@@ -1,12 +1,16 @@
-/* @media for mobile version */
 
+#bdy {
+      background-color: lightpink;
+}
+
+/* @media for mobile version */
 @media only screen and (orientation: portrait)
 {
       #bdy { background-color: red; }
 }
-/* @media for Desktop version */
-
-@media only screen and (orientation: landscape) {
+/* ----------------------------------------------------------*/
+@media only screen and (orientation: landscape)
+{
   #bdy {
     background-color: lightblue;
   }
