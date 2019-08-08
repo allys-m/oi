@@ -2,19 +2,19 @@
 #bdy {
    background-color: lightpink;
 }
-.titr0
-{
-   font-size: 30px; border: solid 2px; 
+.titr0 {
+   font-size: 30px;
+   border: solid 2px; 
  }
 /* @media for mobile version */
-@media only screen and (max-width: 250px)
+@media only screen and (max-width: 350px)
 {
    #bdy {
-        background-color: cyan;
-      }
+      background-color: cyan;
+   }
    .titr0 {
       font-size: 25px; border: solid 2px; 
       border-color: yellow;
-      }
+   }
 }
 /* ----------------------------------------------------------*/
