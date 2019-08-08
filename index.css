@@ -1,6 +1,6 @@
-
+/* Mobile version */
 @media only screen 
-  and (min-width: 250px) 
+  and (max-width: 250px) 
 {
     #bdy {
       display: block;
@@ -19,15 +19,7 @@
 
 } /* screen */
 /*---------------------- DESKTOP --------------------------------*/
-body {
-  background-color: black;
+@media only screen and (min-width: 350px)
+{
+  #bdy { background-color: cyan;
 }
-
-.titr0 {
-  font-size: 25px;
-     color: yellow;
-     margin-top: 1px;
-     border: solid 2px;
-     border-color: cyan;
-     border-radius: 8px;
-   }
