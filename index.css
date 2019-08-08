@@ -5,7 +5,9 @@
       #bdy { background-color: red; }
 }
 /* @media for Desktop version */
-@media only screen and (orientation: paysage)
-{
-      #bdy { background-color: blue; }
+
+@media only screen and (orientation: landscape) {
+  #bdy {
+    background-color: lightblue;
+  }
 }
