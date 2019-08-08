@@ -4,14 +4,8 @@
 }
 
 /* @media for mobile version */
-@media only screen and (orientation: portrait)
+@media only screen and (min-width: 200px)
 {
       #bdy { background-color: red; }
 }
 /* ----------------------------------------------------------*/
-@media only screen and (orientation: landscape)
-{
-  #bdy {
-    background-color: lightblue;
-  }
-}
