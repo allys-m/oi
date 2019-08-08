@@ -5,17 +5,18 @@
    #bdy {
       background-color: black;
       color: white;
-      height: 100%;
+      height: 120%;
    }
    .titr0 {
       font-size: 20px;
       border: solid 2px; 
       border-color: yellow;
-      color: white; 
-      background-color: none;
+      color: red; 
+      background-color: white;
    }
    
    .kurz {
+      margin-top: 1%;
       text-align: center;
       font-size: 18px;
       border: solid 2px;
