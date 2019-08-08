@@ -7,7 +7,7 @@
  }
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen and (resolution: "3040 x 1440")
+@media only screen and (resolution: 3040 x 1440)
 {
    #bdy {
       background-color: cyan;
