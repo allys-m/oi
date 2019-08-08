@@ -1,6 +1,7 @@
 
 @media only screen 
-  and (width: 200px)
+  and (width: 600px) 
+  and (height: 400px)
 {
     #bdy {
       display: block;
@@ -8,7 +9,7 @@
       color: white;
     }
    .titr0 {
-     font-size: 10px;
+     font-size: 20px;
      color: yellow;
      margin-top: 1px;
      border: solid 2px;
