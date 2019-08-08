@@ -15,12 +15,16 @@
 @media only screen and (orientation: landscape)
 {
    #bdy {
-      background-color: red;
+      background-color: cyan;
+   }
+   
+   #f7 {
+      margin-left: 15%; margin-right: 15%;
    }
    
    .titr0 {
-      font-size: 15px;
+      font-size: 30px;
       border: solid 2px; 
-      border-color: black;
+      border-color: yellow;
    }
 }
