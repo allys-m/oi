@@ -1,6 +1,6 @@
 /* Mobile version */
 @media only screen 
-  and (max-width: 250px) 
+  and (device-width: 250px) 
 {
     #bdy {
       display: block;
