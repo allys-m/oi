@@ -1,6 +1,6 @@
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen and (device-width: 250px)
+@media only screen and (width: 290px)
 {
    #bdy {
       background-color: cyan;
@@ -20,7 +20,7 @@
    }
    
    .titr0 {
-      font-size: 18px;
+      font-size: 15px;
       border: solid 2px; 
       border-color: red;
    }
