@@ -1,28 +1,11 @@
-body { background-color: black;
-      color: white;
+/* @media for mobile version */
+
+@media only screen and (orientation: portrait)
+{
+      #bdy { background-color: red; }
 }
-/* Mobile version */
-@media only screen 
-  and (device-width: 250px) 
+/* @media for Desktop version */
+@media only screen and (orientation: paysage)
 {
-    #bdy {
-      display: block;
-      background-color: black;
-      color: white;
-    }
-   .titr0 {
-     font-size: 20px;
-     color: yellow;
-     margin-top: 1px;
-     border: solid 2px;
-     border-color: cyan;
-     border-radius: 8px;
-   }
-
-
-} /* screen */
-/*---------------------- DESKTOP --------------------------------*/
-@media only screen and (min-width: 100px)
-{
-  #bdy { background-color: cyan;
+      #bdy { background-color: red; }
 }
