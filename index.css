@@ -1,16 +1,21 @@
 
 #bdy {
-      background-color: lightpink;
+   background-color: lightpink;
 }
-
-/* @media for mobile version */
-@media only screen and (min-width: 200px)
+.titr0
 {
-      #bdy {
+   font-size: 30px; border: solid 2px; 
+ }
+/* @media for mobile version */
+@media only screen and (max-width: 250px)
+{
+   #bdy
+      {
         background-color: red; font-size: 25px;
       }
-      .titr0 {
-        font-size: 25px; border: solid px; 
+   .titr0
+      {
+        font-size: 25px; border: solid 2px; 
       }
 }
 /* ----------------------------------------------------------*/
