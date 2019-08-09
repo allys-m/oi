@@ -34,7 +34,7 @@ background-color: none;
       padding-bottom: 2%;
    }
    
-   #nav, ul, li {
+   #nav ul li {
 text-decoration: none;
    }
 }
