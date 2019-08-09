@@ -6,17 +6,18 @@
    #f7 {
       background-color: black;
       color: white;
-      height: 110%;
+      height: 130%;
    }
    .titr0 {
       margin-top: 2%;
       font-size: 25px;
       border: solid 2px; 
       border-color: yellow;
-      border-radius-left: 8px;
-      color: black; 
+      border-radius: 8px;
+color: red; font-style: bold;
 background-color: none;
       text-align: center;
+      padding-bottom: 1%;
    }
    
    .kurz {
@@ -33,6 +34,9 @@ background-color: none;
       padding-bottom: 2%;
    }
    
+   #nav, ul, li {
+text-decoration: none;
+   }
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
