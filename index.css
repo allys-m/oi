@@ -5,12 +5,13 @@
    #f7 {
       background-color: black;
       color: white;
-      height: 110%;
+      height: 100%;
    }
    .titr0 {
       font-size: 20px;
       border: solid 2px; 
       border-color: yellow;
+      border-radius: 3px;
       color: red; 
       background-color: white;
    }
@@ -20,17 +21,13 @@
       text-align: center;
       font-size: 18px;
       border: solid 2px;
+      border-radius: 8px;
       background-color: yellow;
       color: black;
       border-color: red;
       margin-left: 8%; margin-right: 8%;
    }
    
-   #id {
-      font-size: 18px;
-      float: right; 
-      background-color: cyan;
-   }
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
@@ -58,9 +55,4 @@
       background-color: red;
    }
    
-   #id {
-      font-size: 18px;
-      float: right; 
-      background-color: cyan;
-   }
 }
