@@ -2,6 +2,7 @@
 /* @media for mobile version */
 @media only screen and (orientation: portrait)
 {
+  #bdy { background-color: cyan; }
    #f7 {
       background-color: black;
       color: white;
@@ -12,11 +13,10 @@
       font-size: 25px;
       border: solid 2px; 
       border-color: yellow;
-      border-left-radius: 8px;
+      border-radius-left: 8px;
       color: black; 
-background-color: red;
-padding-left: 5px;
-padding-right: 5px;
+background-color: none;
+      text-align: center;
    }
    
    .kurz {
