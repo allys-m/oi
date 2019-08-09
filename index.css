@@ -17,7 +17,7 @@
 color: red; font-style: bold;
 background-color: none;
       text-align: center;
-      padding-bottom: 1%;
+      margin-bottom: 1%;
    }
    
    .kurz {
@@ -34,7 +34,7 @@ background-color: none;
       padding-bottom: 2%;
    }
    
-   #nav ul li {
+   #nav li {
 text-decoration: none;
    }
 }
