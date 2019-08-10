@@ -6,7 +6,7 @@
    #f7 {
       background-color: black;
       color: white;
-      height: 130%;
+      height: 160%;
    }
    .titr0 {
       margin-top: 2%;
@@ -15,7 +15,7 @@
       border-color: yellow;
       border-radius: 8px;
 color: red; font-style: bold;
-background-color: none;
+background-color: black;
       text-align: center;
       margin-bottom: 1%;
    }
