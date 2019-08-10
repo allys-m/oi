@@ -41,7 +41,7 @@ font-style: italic;
    }
   
   #nav {
-   float: left;
+   float: left; margin-left: -5%;
   }
 
   #nav li {
