@@ -39,14 +39,17 @@ color: yellow; float: right;
 font-size: 18px;
 font-style: italic;
    }
+  
+  #nav ul {
+   float: left;
+  }
 
-   #nav li {
+  #nav li {
 overflow: hidden;
 border: solid 2px; 
 border-color: red;
-float: left;
 background-color: cyan;
-   }
+  }
   #nav a {
 text-decoration: none; 
 }
