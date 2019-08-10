@@ -49,9 +49,11 @@ overflow: hidden;
 border: solid 2px; 
 border-color: red;
 background-color: cyan;
+text-align: center;
   }
   #nav a {
 text-decoration: none; 
+font-size: 15px;
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
