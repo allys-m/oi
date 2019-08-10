@@ -50,6 +50,7 @@ border: solid 2px;
 border-color: red;
 background-color: cyan;
 text-align: center;
+
   }
   #nav a {
 text-decoration: none; 
@@ -57,12 +58,9 @@ font-size: 15px;
   }
   
   .ln {
-   padding-right: 8%;
+   padding-right: 18%;
   }
 
-  .ln0 {
-    padding-left: 8%;
-  }
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
