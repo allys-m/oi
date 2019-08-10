@@ -35,13 +35,17 @@ background-color: black;
    }
    
    .lgd1 {
-color: yellow; flot: right;
+color: yellow; float: right;
 font-size: 18px;
 font-style: italic;
    }
+   
+   #nav ul {
+    border: solid 1px;
+   }
 
    #nav li {
-text-decoration: none;
+overflow: hidden;
    }
 }
 /* ----------------------------------------------------------*/
