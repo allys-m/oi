@@ -42,10 +42,13 @@ font-style: italic;
 
    #nav li {
 overflow: hidden;
-text-decoration: none;
 border: solid 2px; 
 border-color: red;
+float: left;
+background-color: cyan;
    }
+  #nav a {
+text-decoration: none; 
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
