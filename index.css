@@ -39,13 +39,12 @@ color: yellow; float: right;
 font-size: 18px;
 font-style: italic;
    }
-   
-   #nav ul {
-    border: solid 1px;
-   }
 
    #nav li {
 overflow: hidden;
+text-decoration: none;
+border: solid 2px; 
+border-color: red;
    }
 }
 /* ----------------------------------------------------------*/
