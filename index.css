@@ -50,15 +50,15 @@ border: solid 2px;
 border-color: red;
 background-color: cyan;
 text-align: center;
-
   }
+  
+  #nav li .ln {
+padding-right: 18%;
+  }
+
   #nav a {
 text-decoration: none; 
 font-size: 15px;
-  }
-  
-  .ln {
-   padding-right: 18%;
   }
 
 }
