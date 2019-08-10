@@ -8,15 +8,15 @@ let user = {
  cliHos: window.location.host
 }; // user 
 
-var main = {};
+var msg = "Aktung: \n"+"die seite wurde nur auf eine mobile version \n"+
+  " aufgebaut mit dem Portrait und Landscape Oriantation \n"+
+  "Datum  :";
 
-main.start = $().ready(function(){
+let main = {};
+
+main.start = $(msg).ready(function(){
   var date = new Date();
-  var msg = "Aktung: die seite wurde nur auf eine mobile version"+
-  " aufgebaut mit dem Portrait Oriantation "+
-  "Datum  :"+date;
-
-  alert(msg);
+  alert(msg+" "+date);
 
 }); // start
 
