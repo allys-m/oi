@@ -14,7 +14,7 @@ var msg = "Aktung: \n"+"die seite wurde nur auf eine mobile version \n"+
 
 let main = {};
 
-main.start = $(msg).ready(function(){
+main.start = $().ready(function(){
   var date = new Date();
   alert(msg+" "+date);
 
