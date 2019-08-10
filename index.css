@@ -59,6 +59,10 @@ font-size: 15px;
   .ln {
    padding-right: 8%;
   }
+
+  .ln0 {
+    padding-left: 8%;
+  }
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
