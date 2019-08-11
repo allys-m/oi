@@ -6,7 +6,7 @@
    #f7 {
       background-color: black;
       color: white;
-      height: 500px;
+      height: 450px;
    }
    .titr0 {
       margin-top: 2%;
@@ -44,7 +44,7 @@ font-style: italic;
     font-size: 13px; color: yellow;
    }
   #nav {
-   float: left; margin-left: -15%;
+   margin-left: -15%;
   }
 
   #nav li {
@@ -53,6 +53,7 @@ border: solid 2px;
 border-color: red;
 background-color: cyan;
 text-align: center;
+overflow: hidden;
   }
 
   #nav a {
