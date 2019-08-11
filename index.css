@@ -39,7 +39,10 @@ color: yellow; float: right;
 font-size: 18px;
 font-style: italic;
    }
-  
+
+   #text {
+    font-size: 10px; color: red;
+   }
   #nav {
    float: left; margin-left: -15%;
   }
