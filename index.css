@@ -53,13 +53,11 @@ border-color: red;
 background-color: cyan;
 text-align: center;
 overflow: hidden;
-text-decoration: none;
   }
 
-  #nav a {
-overflow: hidden;
-text-decoration: none; 
+  #nav a { 
 font-size: 13px;
+text-decoration: none;
   }
 
 }
