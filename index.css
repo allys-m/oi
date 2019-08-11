@@ -41,13 +41,14 @@ font-style: italic;
    }
 
    #text {
-    font-size: 10px; color: red;
+    font-size: 13px; color: yellow;
    }
   #nav {
    float: left; margin-left: -15%;
   }
 
   #nav li {
+float: left;
 border: solid 2px; 
 border-color: red;
 background-color: cyan;
