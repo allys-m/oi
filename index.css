@@ -43,6 +43,9 @@ font-style: italic;
    #text {
     font-size: 13px; color: yellow;
    }
+  #nav, ul, li, a {
+overflow: hidden;
+  }
   #nav {
    margin-left: -15%;
   }
@@ -52,13 +55,10 @@ border: solid 2px;
 border-color: red;
 background-color: cyan;
 text-align: center;
-overflow: hidden;
-text-decoration: none;
   }
 
   #nav a { 
 font-size: 13px;
-text-decoration: none;
   }
 
 }
