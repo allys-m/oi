@@ -57,7 +57,7 @@ overflow: hidden;
 
   #nav a { 
 font-size: 13px;
-text-decoration: none;
+overflow: hidden;
   }
 
 }
