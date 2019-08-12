@@ -45,6 +45,7 @@ font-style: italic;
    }
   #nav, ul, li, a {
 overflow: hidden;
+text-decoration: none;
   }
   #nav {
    margin-left: -15%;
