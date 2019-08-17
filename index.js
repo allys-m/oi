@@ -16,9 +16,10 @@ var msg = "Aktung: \n"+
 
 let main = {};
 
-main.start = $().ready(function(){
+main.start = $(function(){
   var date = new Date();
-  alert(msg+" "+date);
+  alert(msg+" "+date+"Platform :"+
+  user.platf);
 
 }); // start
 
