@@ -21,16 +21,22 @@
 @media only screen and (orientation: landscape)
 {
    body {
-      background-image   : url("kayd-sy0.jpg");
+      background-image   : url("kayd.jpg");
       background-repeat: no-repeat;
+      background-position: static;
    }
    
-   #p1 {
+   #p1, .t-h4, .dev-nom {
       border: solid 1px;
+   border-color: red;
    }
    
    .t-h4 {
-     font-size: 30px;
+     font-size: 30px; color: yellow;
+   }
+   .dev-nom {
+     font-size: 20px;
+     text-shadow: 2px 25px 2px #FFFFF;
    }
 
 }
