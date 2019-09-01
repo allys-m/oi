@@ -7,101 +7,29 @@
       background-repeat: no-repeat;
    }
    
-   h4 {
+   #p1 {
       text-align: center; color: yellow;
-      border: solid 1px; background-color: cyan;
+      border: solid 1px; background-color: none;
+      font-size: 22px;
       
    }
-   .titr0 {
-      margin-top: 2%;
-      font-size: 25px;
-      border: solid 2px; 
-      border-color: yellow;
-      border-radius: 8px;
-color: red; font-style: bold;
-background-color: black;
-      text-align: center;
-      margin-bottom: 1%;
-   }
-   
-   .kurz {
-      margin-top: 1%;
-      text-align: center;
-      font-size: 18px;
-      border: solid 2px;
-      border-radius: 8px;
-      background-color: yellow;
-      color: black;
-      border-color: red;
- margin-left: 8%; margin-right: 8%;
-      padding-top: 2%;
-      padding-bottom: 2%;
-   }
-   
-   .lgd1 {
-color: yellow; float: right;
-font-size: 18px;
-font-style: italic;
-   }
-
-   #text {
-    font-size: 13px; color: yellow;
-   }
-  #nav, ul, li, a {
-overflow: hidden;
-text-decoration: none;
-  }
-  #nav {
-   margin-left: -15%;
-  }
-
-  #nav li {
-border: solid 2px; 
-border-color: red;
-background-color: cyan;
-text-align: center;
-overflow: hidden;
-  }
-
-  #nav a { 
-font-size: 13px;
-text-decoration: none;
-  }
 
 }
-/* ----------------------------------------------------------*/
-/*  ----  @media only screen and (max-width: 1310px) ---- */
+
+/* -------------------- */
 
 @media only screen and (orientation: landscape)
 {
-   body { 
-      background-image   : url("kayden.jpg"); 
+   body {
+      background-image   : url("kayden.jpg");
       background-repeat: no-repeat;
-      margin-left: 2%; margin-right: 2%;
    }
-   p{
-    text-align: center;
+   
+   #p1 {
+      text-align: center; color: yellow;
+      border: solid 1px; background-color: none;
+      font-size: 22px;
+      
    }
+
 }
-/*  ++++++++++++++++++++++++++++++++++++++++++  */
-   #fldCont { }
-   
-   #f7 {
-      margin-left: 15%; margin-right: 15%;
-      background-color: lightble;
-   }
-   
-   .titr0 {
-      font-size: 30px;
-      border: solid 2px; 
-      border-color: yellow;
-   }
-   
-   .kurz {
-      text-align: center;
-      font-size: 25px;
-      border: solid 2px; border-color: solid 2px;
-      margin-left: 20%; margin-right: 20%;
-      background-color: red;
-   }
-   
