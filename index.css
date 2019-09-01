@@ -67,6 +67,7 @@ text-decoration: none;
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
+   and (width: 2550px)
 {
    #bdy {
       background-color: cyan;
