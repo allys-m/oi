@@ -21,15 +21,16 @@
 @media only screen and (orientation: landscape)
 {
    body {
-      background-image   : url("kayden.jpg");
+      background-image   : url("kayd-sy0.jpg");
       background-repeat: no-repeat;
    }
    
    #p1 {
-      text-align: center; color: yellow;
-      border: solid 1px; background-color: none;
-      font-size: 22px;
-      
+      border: solid 1px;
+   }
+   
+   #p1 .t-h4 {
+     font-size: 30px;
    }
 
 }
