@@ -79,6 +79,9 @@ text-decoration: none;
       background-repeat: no-repeat;
       margin-left: 2%; margin-right: 2%;
    }
+   p{
+    text-align: center;
+   }
 }
 /*  ++++++++++++++++++++++++++++++++++++++++++  */
    #fldCont { }
