@@ -4,8 +4,13 @@
 {
    body {
       background-image   : url("kayden.jpg");
-      background-position: bottom;
-      color              : yellow;
+      background-repeat: no-repeat;
+   }
+   
+   h4 {
+      text-align: center; color: yellow;
+      border: solid 1px; background-color: cyan;
+      
    }
    .titr0 {
       margin-top: 2%;
