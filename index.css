@@ -8,8 +8,19 @@
    }
    
    .t-h4 {
-    font-size: 25px;
-    color: cyan;
+    font-size: 18px;
+    color: red;
+   }
+   
+   #nav0 ul {
+    float: left;
+   }
+
+   #nav0 ul li{
+    overflow: hidden;
+    padding: 1px;
+  boder: solid 2px;
+    border-radius: 8px;
    }
 
 }
@@ -31,7 +42,18 @@
    }
    .dev-nom {
      font-size: 20px;
-     text-shadow: 2% 25% 2% red;
+     text-shadow: 5px 25px 5px red;
+   }
+
+   #nav0 ul {
+    float: left;
+   }
+
+   #nav0 ul li{
+    overflow: hidden;
+    padding: 2px;
+  boder: solid 2px;
+    border-radius: 10px;
    }
 
 }
