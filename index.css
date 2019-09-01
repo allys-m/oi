@@ -2,9 +2,8 @@
 /* @media for mobile version */
 @media only screen and (orientation: portrait)
 {
-  #bdy { background-color: cyan; }
-   #f7 {
-      background-color: black;
+   body {
+      background-image: url("kayd-sy0.jpg");
       color: white;
       height: 450px;
    }
