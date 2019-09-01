@@ -65,10 +65,10 @@ text-decoration: none;
 }
 /* ----------------------------------------------------------*/
 @media only screen and (orientation: landscape)
-   and (width: 2550px)
+            and (max-width: 480px)
 {
    #bdy {
-      background-color: cyan;
+      background-image   : url("kayd-sy0.jpg");
    }
    
    #f7 {
