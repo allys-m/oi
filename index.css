@@ -3,8 +3,9 @@
 @media only screen and (orientation: portrait)
 {
    body {
-      background-image   : url("kayd-sy0.jpg");
-      color              : red;
+      background-image   : url("kayden.jpg");
+      background-position: bottom;
+      color              : yellow;
    }
    .titr0 {
       margin-top: 2%;
@@ -66,7 +67,10 @@ text-decoration: none;
 /* ----------------------------------------------------------*/
 @media only screen and (min-width: 1280px)
 {
-   body { background-image   : url("kayden.jpg"); } 
+   body { 
+      background-image   : url("kayden.jpg"); 
+      background-position: bottom;
+   } 
    #fldCont {
       background-image   : url("kayd-sy0.jpg");
    }
