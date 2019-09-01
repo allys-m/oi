@@ -69,11 +69,9 @@ text-decoration: none;
 {
    body { 
       background-image   : url("kayden.jpg"); 
-      background-position: bottom;
+      background-repeat: no-repeat;
    } 
-   #fldCont {
-      background-image   : url("kayd-sy0.jpg");
-   }
+   #fldCont { }
    
    #f7 {
       margin-left: 15%; margin-right: 15%;
