@@ -3,9 +3,10 @@
 @media only screen and (orientation: portrait)
 {
    body {
-      background-image: url("kayd-sy0.jpg");
-      color: white;
-      height: 450px;
+      background-image   : url("kayd-sy0.jpg");
+      color              : white;
+      display            : block;
+      background-position: none;
    }
    .titr0 {
       margin-top: 2%;
