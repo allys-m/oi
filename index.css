@@ -72,12 +72,12 @@ text-decoration: none;
 /* ----------------------------------------------------------*/
 /*  ----  @media only screen and (max-width: 1310px) ---- */
 
-@media only screen and (width: 1500px)
+@media only screen and (orientation: landscape)
 {
    body { 
       background-image   : url("kayden.jpg"); 
       background-repeat: no-repeat;
-      margin-left: 5%; margin-right: 5%;
+      margin-left: 2%; margin-right: 2%;
    }
 }
 /*  ++++++++++++++++++++++++++++++++++++++++++  */
