@@ -72,7 +72,7 @@ text-decoration: none;
 /* ----------------------------------------------------------*/
 /*  ----  @media only screen and (max-width: 1310px) ---- */
 
-@media only screen and (orientation: landscape)
+@media only screen and (max-width: 1280px)
 {
    body { 
       background-image   : url("kayden.jpg"); 
