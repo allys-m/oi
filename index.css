@@ -4,9 +4,7 @@
 {
    body {
       background-image   : url("kayd-sy0.jpg");
-      color              : white;
-      display            : block;
-      background-position: none;
+      color              : red;
    }
    .titr0 {
       margin-top: 2%;
