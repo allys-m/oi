@@ -19,7 +19,7 @@
    #nav0 ul li{
     overflow: hidden;
     padding: 1px;
-  boder: solid 2px;
+  border: solid 2px;
     border-radius: 8px;
    }
 
@@ -42,7 +42,7 @@
    }
    .dev-nom {
      font-size: 20px;
-     text-shadow: 5px 25px 5px red;
+     text-shadow: 5px 18px 5px yellow;
    }
 
    #nav0 ul {
@@ -52,7 +52,7 @@
    #nav0 ul li{
     overflow: hidden;
     padding: 2px;
-  boder: solid 2px;
+  border: solid 2px;
     border-radius: 10px;
    }
 
