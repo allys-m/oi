@@ -9,21 +9,25 @@
    
    .t-h4 {
     font-size: 18px;
+    float: left
     color: red;
+    text-shadow: 5px 10px 5px black;
    }
    
    #nav0 ul {
     float: left;
-    margin-left: -5%;
+    margin-left: -10%;
    }
 
    #nav0 ul li{
     overflow: hidden;
     padding: 1px;
   border: solid 2px;
-    border-radius: 8px;
+  border-radius: 8px;
   background-color: black;
   color: yellow;
+  text-align: center;
+  
    }
 
 }
