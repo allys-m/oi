@@ -9,9 +9,9 @@
    
    .t-h4 {
     font-size: 18px;
-    float: left
+    text-align: left;
     color: red;
-    text-shadow: 5px 10px 5px black;
+    text-shadow: 3px 9px 3px green;
    }
    
    #nav0 ul {
