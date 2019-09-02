@@ -28,9 +28,11 @@
   border: solid 2px;
   border-radius: 8px;
   background-color: black;
-  color: yellow;
   text-align: center;
-  
+   }
+
+   #nav0 a {
+    color: yellow;
    }
 
    #nav0 li: hover{
