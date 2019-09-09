@@ -9,16 +9,15 @@ let user = {
 }; // user 
 
 var msg = "Aktung: \n"+
- "die seite wurde nur auf eine mobile version"+
- " aufgebaut mit dem Portrait und \n"+
- "Landscape Oriantation \n"+
- "Datum  :";
+"Ich entschuldigung mich jetzt zu sagen "+
+"die WEBSITE würde nur on mobile version "+
+"gestellt .";
 
 let main = {};
 
 main.start = $(function(){
   var date = new Date();
-  alert(msg+" "+date+"Platform :"+
+  alert(msg +"\t\n"+ date +"\nPlatform : \n"+
   user.platf);
 
 }); // start
