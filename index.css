@@ -1,6 +1,8 @@
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen and (orientation: portrait)
+@media only screen 
+   and (orientation: portrait)
+   and (min-width: 70px)
 {
    body {
       background-image   : url("kayden.jpg");
@@ -53,7 +55,7 @@
 /* -------------------- */
 
 @media only screen 
-   and (orientation: landscape) and (min-width: 70px)
+   and (orientation: landscape) and (min-width: 100px)
 {
    body {
       background-image   : url("kayd.jpg");
