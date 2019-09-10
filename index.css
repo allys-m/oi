@@ -2,7 +2,6 @@
 /* @media for mobile version */
 @media only screen 
    and (orientation: portrait)
-   and (min-width: 70px)
 {
    body {
       background-image   : url("kayden.jpg");
