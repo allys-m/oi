@@ -52,7 +52,8 @@
 
 /* -------------------- */
 
-@media only screen and (orientation: landscape)
+@media only screen 
+   and (orientation: landscape) and (max-width: 600px)
 {
    body {
       background-image   : url("kayd.jpg");
