@@ -49,8 +49,63 @@
    
 }
 
-/* -------------------- */
+/*   *********************** MOBIL-PART-LANDSCAP ***********************    */
+@media only screen 
+   and (orientation: landscape)
+   and (min-width: 400px)
+{
+   body {
+      background-image   : url("kayd.jpg");
+      background-repeat: no-repeat;
+      background-position: left;
+   }
+   
+   #fldCont {
+      margin-left: 15%; margin-right: 15%;
+      text-shadow: 2px 8px 2px black;
+   }
+   
+   .t-h4 {
+     font-size: 40px; color: yellow;
+     margin-left: 10%;
+   }
+   .dev-nom {
+     font-size: 20px;
+     text-shadow: 5px 18px 5px yellow;
+   }
 
+   #nav0 ul {
+    float: left;
+   }
+
+   #nav0 ul li{
+      overflow: hidden;
+      padding: 1px;
+      border: solid 2px;
+      border-radius: 8px;
+      border-color: yellow;
+      background-color: black;
+      text-align: center;
+   }
+
+   #nav0 a {
+      color: yellow;
+      text-decoration: none;
+   }
+
+   #nav0 li:hover {
+      background-color: white;
+      border-color: red;
+   }
+   
+   #nav0 a:hover {
+       color: red;  
+   }
+
+}
+
+/*   *********************** DESKTOP-PART ***********************    */
+/*   *********************** DESKTOP-PART ***********************    */
 @media only screen 
    and (orientation: landscape)
    and (min-width: 1280px)
