@@ -65,13 +65,14 @@
    }
    
    .t-h4 {
-     font-size: 20px; color: lightblue;
-     margin-left: 8%; margin-right: 8%;
-     text-shadow: 2px 8px 2px black;
+     font-size: 20px; color: cyan;
+     margin-left: 5%; margin-right: 5%;
+     text-shadow: 2px 8px 2px red;
    }
    .dev-nom {
-     font-size: 15px;
-     text-shadow: 5px 10px 5px yellow;
+     font-size: 22px;
+     text-shadow: 2px 8px 2px red;
+     margin-left: -10px;
    }
 
    #nav0 ul {
@@ -94,12 +95,12 @@
    }
 
    #nav0 li:hover {
-      background-color: white;
-      border-color: red;
+      background-color: red;
+      border-color: black;
    }
    
    #nav0 a:hover {
-       color: red;  
+       color: black;  
    }
 
 }
