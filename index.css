@@ -65,14 +65,14 @@
    }
    
    .t-h4 {
-     font-size: 20px; color: cyan;
+     font-size: 35px; color: cyan;
      margin-left: 5%; margin-right: 5%;
      text-shadow: 2px 8px 2px red;
    }
    .dev-nom {
      font-size: 22px;
      text-shadow: 2px 8px 2px red;
-     margin-left: -10px;
+     margin-left: -20px;
    }
 
    #nav0 ul {
