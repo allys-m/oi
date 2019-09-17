@@ -55,7 +55,9 @@
 
 /* -------------------- */
 
-@media only screen and (orientation: landscape)
+@media only screen 
+   and (orientation: landscape)
+   and (min-width: 1280px)
 {
    body {
       background-image   : url("kayd.jpg");
@@ -63,10 +65,13 @@
       background-position: left;
    }
    
+   #fldCont {
+      margin-left: 15%;
+   }
    
    .t-h4 {
-     font-size: 30px; color: yellow;
-     text-align: center;
+     font-size: 40px; color: yellow;
+     text-align: center; border: solid 1px;
    }
    .dev-nom {
      font-size: 20px;
