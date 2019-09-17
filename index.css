@@ -1,4 +1,4 @@
-/* 3040 x 1440 */
+
 /* @media for mobile version */
 @media only screen and (orientation: portrait)
 {
@@ -57,21 +57,21 @@
    body {
       background-image   : url("kayd.jpg");
       background-repeat: no-repeat;
-      background-position: left;
+      background-position: static;
    }
    
    #fldCont {
-      margin-left: 15%; margin-right: 15%;
-      text-shadow: 2px 8px 2px black;
+      margin-left: 8%; margin-right: 8%;
    }
    
    .t-h4 {
-     font-size: 40px; color: yellow;
-     margin-left: 10%;
+     font-size: 20px; color: lightblue;
+     margin-left: 8%; margin-right: 8%;
+     text-shadow: 2px 8px 2px black;
    }
    .dev-nom {
-     font-size: 20px;
-     text-shadow: 5px 18px 5px yellow;
+     font-size: 15px;
+     text-shadow: 5px 10px 5px yellow;
    }
 
    #nav0 ul {
@@ -123,7 +123,7 @@
    
    .t-h4 {
      font-size: 40px; color: yellow;
-     margin-left: 10%;
+     margin-left: 15%;
    }
    .dev-nom {
      font-size: 20px;
