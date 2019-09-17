@@ -65,8 +65,7 @@
    }
    
    .t-h4 {
-     font-size: 35px; color: cyan;
-     margin-left: 5%; margin-right: 5%;
+     font-size: 25px; color: cyan;
      text-shadow: 2px 8px 2px red;
    }
    .dev-nom {
