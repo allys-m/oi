@@ -46,7 +46,11 @@
    #nav0 a:hover {
        color: red;  
    }
-
+   
+   #preS p {
+      color: white; border: solid 1px; border-color: red;
+   }
+   
 }
 
 /* -------------------- */
