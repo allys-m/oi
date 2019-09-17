@@ -1,7 +1,6 @@
 /* 3040 x 1440 */
 /* @media for mobile version */
-@media only screen 
-   and (orientation: portrait)
+@media only screen and (orientation: portrait)
 {
    body {
       background-image   : url("kayden.jpg");
@@ -10,51 +9,49 @@
    }
    
    .t-h4 {
-    font-size: 18px;
-    text-align: left;
-    color: black;
-    text-shadow: 1px 5px 1px red;
+      font-size: 18px;
+      text-align: left;
+      color: black;
+      text-shadow: 1px 5px 1px red;
    }
    
    #nav0 {
-    margin-left: -16%;
+      margin-left: -16%;
    }
 
    #nav0 ul {
-    float: left;
+      float: left;
    }
 
    #nav0 ul li{
-    overflow: hidden;
-    padding: 1px;
-  border: solid 2px;
-  border-radius: 8px;
-  border-color: yellow;
-  background-color: black;
-  text-align: center;
+      overflow: hidden;
+      padding: 1px;
+      border: solid 2px;
+      border-radius: 8px;
+      border-color: yellow;
+      background-color: black;
+      text-align: center;
    }
 
    #nav0 a {
-    color: yellow;
-    text-decoration: none;
+      color: yellow;
+      text-decoration: none;
    }
 
    #nav0 li:hover {
-    background-color: white;
-    border-color: red;
+      background-color: white;
+      border-color: red;
    }
    
    #nav0 a:hover {
-     color: red;
-     
+       color: red;  
    }
 
 }
 
 /* -------------------- */
 
-@media only screen 
-   and (orientation: landscape) and (min-width: 100px)
+@media only screen and (orientation: landscape)
 {
    body {
       background-image   : url("kayd.jpg");
@@ -79,7 +76,7 @@
    #nav0 ul li{
     overflow: hidden;
     padding: 2px;
-  border: solid 2px;
+    border: solid 2px;
     border-radius: 10px;
    }
 
