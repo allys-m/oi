@@ -47,10 +47,6 @@
        color: red;  
    }
    
-   #preS p {
-      color: white; border: solid 1px; border-color: red;
-   }
-   
 }
 
 /* -------------------- */
@@ -66,12 +62,13 @@
    }
    
    #fldCont {
-      margin-left: 15%;
+      margin-left: 15%; margin-right: 15%;
+      text-shadow: 2px 8px 2px black;
    }
    
    .t-h4 {
      font-size: 40px; color: yellow;
-     text-align: center; border: solid 1px;
+     margin-left: 10%;
    }
    .dev-nom {
      font-size: 20px;
@@ -83,10 +80,27 @@
    }
 
    #nav0 ul li{
-    overflow: hidden;
-    padding: 2px;
-    border: solid 2px;
-    border-radius: 10px;
+      overflow: hidden;
+      padding: 1px;
+      border: solid 2px;
+      border-radius: 8px;
+      border-color: yellow;
+      background-color: black;
+      text-align: center;
+   }
+
+   #nav0 a {
+      color: yellow;
+      text-decoration: none;
+   }
+
+   #nav0 li:hover {
+      background-color: white;
+      border-color: red;
+   }
+   
+   #nav0 a:hover {
+       color: red;  
    }
 
 }
