@@ -18,7 +18,7 @@ let newUser = function(userN, userP){
 
 main.start = $(function(){
   var date = new Date();
-  alert(msg + date.getToday());
+  alert(msg + date.getDate());
 
 }); // start
 
