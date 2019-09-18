@@ -8,12 +8,13 @@ let user = {
  cliHos: window.location.host
 }; // user 
 
-var msg = "Aktung: \n"+
-"Ich entschuldigung mich jetzt zu sagen "+
-"die WEBSITE würde nur on mobile version "+
-"gestellt .";
+var msg = "--[*] Herzlichen Wilkommen in mein-BLOG [*]--";
 
 let main = {};
+
+let newUser = function(userN, userP){
+ this.userN = userN; this.userP = userP;
+};
 
 main.start = $(function(){
   var date = new Date();
