@@ -71,11 +71,7 @@
    .dev-nom {
      font-size: 22px;
      text-shadow: 2px 8px 2px red;
-     margin-left: -20px;
-   }
-
-   #nav0 ul {
-    float: left;
+     margin-left: -30px;
    }
 
    #nav0 ul li{
