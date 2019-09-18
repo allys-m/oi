@@ -120,13 +120,13 @@
    }
    
    .t-h4 {
-     font-size: 50px; color: yellow;
-     margin-left: 15%;
+     font-size: 40px; color: yellow;
+     text-align: center;
    }
    .dev-nom {
-     font-size: 30px; color: white;
+     font-size: 28px; color: white;
      text-shadow: 3px 10px 3px red;
-     margin-left: -50p%;
+     margin-left: -80%;
    }
 
    #nav0 ul {
