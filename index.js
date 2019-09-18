@@ -18,8 +18,7 @@ let newUser = function(userN, userP){
 
 main.start = $(function(){
   var date = new Date();
-  alert(msg +"\t\n"+ date +"\nPlatform : \n"+
-  user.platf);
+  alert(msg + date.getToday());
 
 }); // start
 
