@@ -52,7 +52,7 @@
 /*   *********************** MOBIL-PART-LANDSCAP ***********************    */
 @media only screen 
    and (orientation: landscape)
-   and (min-width: 400px)
+   and (min-width: 300px)
 {
    body {
       background-image   : url("kayd.jpg");
@@ -118,7 +118,6 @@
    
    #fldCont {
       margin-left: 15%; margin-right: 15%;
-      text-shadow: 2px 8px 2px black;
    }
    
    .t-h4 {
@@ -126,8 +125,9 @@
      margin-left: 15%;
    }
    .dev-nom {
-     font-size: 20px;
-     text-shadow: 5px 18px 5px yellow;
+     font-size: 20px; color: white;
+     text-shadow: 3px 10px 3px red;
+     margin-left: -20p%;
    }
 
    #nav0 ul {
