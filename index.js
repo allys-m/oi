@@ -18,7 +18,7 @@ let newUser = function(userN, userP){
 
 main.start = $(function(){
   var date = new Date();
-  alert(msg + date.getDate());
+  alert(msg + date.getUTCHours());
 
 }); // start
 
